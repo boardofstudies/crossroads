@@ -16,7 +16,8 @@ app.config(['$routeProvider',
                 templateUrl: 'templates/mentor.html'
             }).
             when('/mentors/:query', {
-                templateUrl: 'templates/mentor_list.html'
+                templateUrl: 'templates/mentor_list.html',
+                controller: 'mentorsController'
             });
 }]);
 /*
