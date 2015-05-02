@@ -1,9 +1,10 @@
-var app = angular.module('mentor-app', []);
-
-
-app.controller('rootController', function($scope){
-	$scope.name = "Hello, testing scope var";
-});
-
-
+var app = angular.module('mentor-app', ['ngRoute']);
+app.config(['$routeProvider',
+          function($routeProvider) {
+              $routeProvider.
+                when('/', {
+                        templateUrl: 'templates/mentor.html',
+                        controller: 'rootController'
+                      });
+              }]);
 console.log("HELLO WORLD");
