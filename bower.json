@@ -1,0 +1,10 @@
+{
+  "name": "crossroads",
+  "version": "0.0.0",
+  "homepage": "https://github.com/boardofstudies/crossroads",
+  "authors": [
+    "Harrison <harrison@theshoebridges.com>"
+  ],
+  "license": "MIT",
+  "private": true
+}
