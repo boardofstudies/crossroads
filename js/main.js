@@ -12,10 +12,10 @@ app.config(['$routeProvider',
             when('/form', {
                 templateUrl: 'templates/form.html'
             }).
-            when('/mentor', {
+            when('/mentor/:id', {
                 templateUrl: 'templates/mentor.html'
             }).
-            when('/mentors', {
+            when('/mentors/:query', {
                 templateUrl: 'templates/mentor_list.html'
             });
 }]);
