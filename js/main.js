@@ -19,7 +19,7 @@ app.config(['$routeProvider',
                 templateUrl: 'templates/mentor_list.html'
             });
 }]);
-
+/*
 function Global(){
 	function config() {
 		var data = {
@@ -32,4 +32,32 @@ function Global(){
 			]
 		};
 	}
+};*/
+
+// TODO: move this into a neater spot!
+var mentorData = {
+    "entrepreneurship": [
+        {"name": "Gio", "description": "hello"},
+        {"name": "James", "description": "hello"},
+        {"name": "Don", "description": "hello"},
+        {"name": "Chriss", "description": "hello"},
+        {"name": "Jak", "description": "hello"},
+        {"name": "Chilli", "description": "hello"}
+    ],
+    "programming" : [
+        {"name": "Gio", "description": "hello"},
+        {"name": "James", "description": "hello"},
+        {"name": "Don", "description": "hello"},
+        {"name": "Chriss", "description": "hello"},
+        {"name": "Jak", "description": "hello"},
+        {"name": "Chilli", "description": "hello"}
+    ],
+    "agriculture": [
+        {"name": "Gio", "description": "hello"},
+        {"name": "James", "description": "hello"},
+        {"name": "Don", "description": "hello"},
+        {"name": "Chriss", "description": "hello"},
+        {"name": "Jak", "description": "hello"},
+        {"name": "Chilli", "description": "hello"}
+    ]
 };
