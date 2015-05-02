@@ -1,10 +1,12 @@
 app.controller('mentorsController', function($scope, $routeParams) {
+    var query = $routeParams.query;
     // Get the query and use it to index mentorData
-    data = mentorData[$routeParams.query];
+    var data = mentorData[query];
     // Split it into a two dimensional array
     // the two arrays become "rows"
     // the contents of them become images
     $scope.data = chunk(data);
+    $scope.title = query.charAt(0).toUpperCase() + query.slice(1);
     
     // #itgotdesperate
     function chunk(d) {
