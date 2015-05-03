@@ -9,6 +9,9 @@ app.config(['$routeProvider',
             when('/interests', {
                 templateUrl: 'templates/interests_list.html',
                 controller: 'interestsController'
+            }).
+            when('/map/:interest', {
+                templateUrl: 'templates/mentor.html'
             })
 /*           when('/mentors/:query', {
                 templateUrl: 'templates/mentor_list.html',
