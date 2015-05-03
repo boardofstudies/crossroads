@@ -1,7 +1,7 @@
 app.controller('interestsController', function($scope) {
     // Get the query and use it to index mentorData
-    var data = ["Fincance", "Programmer", "Leadership",
-                "ripper", "double rip", "gio"];
+    var data = ["Fincance", "Engineering", "Project Management",
+                "Law", "Arts", "Medicine"];
     // Split it into a two dimensional array
     // the two arrays become "rows"
     // the contents of them become images
