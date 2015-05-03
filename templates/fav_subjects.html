@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="row well">
+        <div class="col-md-6">
+            <label for="fav">Favourite Subjects: </label><br><input ng-model="subject" name="fav" id="fav" type="text"/>
+            <button class="btn btn-default" ng-click="add()">Add</button>
+
+            <ul>
+                <li ng-repeat="subj in subjects">{{subj}}</li>
+            </ul>
+
+            <a href="#/interests" class="btn btn-primary">Next</a>
+        </div>
+
+        <div class="col-md-6">
+            <label for="endgoal">End Goal: </label><br><input ng-model="endgoal" name="endgoal" id="endgoal" type="text"/>
+            <a ng-href="#/map/{{endgoal}}" class="btn btn-primary">Find</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+<div class="container">
+    <h1>{{title}}</h1>
+    <div class="row" class="mentor-list" ng-repeat="set in data">
+        <div class="col-md-4 profile" ng-repeat="interest in set">
+            <div class="well">
+                <h2>{{interest}}</h2>
+                <button class="btn btn-primary">Yes!</button>
+            </div>
+        </div>
+    </div>
+</div>
