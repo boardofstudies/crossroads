@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    margin: 0 200px;
+    border-radius: 20px;
+    padding-top: 1px;
+}
+.circle{
+	width: 150px;
+	height: 150px;
+	border-radius: 100px;
+	background-color: gray; 
+	margin-bottom: 20px;
+	float: left;
+	margin-right: 200px;
+	margin-left: 250px;
+}
+.clear{
+	clear: both;
+}
