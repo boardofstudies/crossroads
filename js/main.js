@@ -3,22 +3,17 @@ app.config(['$routeProvider',
     function($routeProvider) {
         $routeProvider.
             when('/', {
-                templateUrl: 'templates/home.html',
-                controller: 'rootController'
+                templateUrl: 'templates/fav_subjects.html',
+                controller: 'subjectController'
             }).
-            when('/confirm', {
-                templateUrl: 'templates/confirm.html'
-            }).
-            when('/form', {
-                templateUrl: 'templates/form.html'
-            }).
-            when('/mentor/:id', {
-                templateUrl: 'templates/mentor.html'
-            }).
-            when('/mentors/:query', {
+            when('/interests', {
+                templateUrl: 'templates/interests_list.html',
+                controller: 'interestsController'
+            })
+/*           when('/mentors/:query', {
                 templateUrl: 'templates/mentor_list.html',
                 controller: 'mentorsController'
-            });
+            });*/
 }]);
 /*
 function Global(){
